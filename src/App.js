@@ -5,6 +5,7 @@ import About from "./About";
 import BlogDetails from "./BlogDetails";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//comment added
 
 function App() {
   return (
