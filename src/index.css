@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  font-family: "Arial";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  border-bottom: 1px solid white;
+}
+
+.navbar h1 {
+  color: rgb(72, 7, 94);
+}
+
+.navbar .links {
+  margin-left: auto;
+  
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview h2,p{
+  color: rgb(2, 57, 40);
+  height: 30px;
+}
+
+.blog-list a{
+  text-decoration: none;
+}
+
+.blog-body{
+  text-align: justify;
+}
+.blog-details h2,h4{
+  color: rgb(121, 58, 3);
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: red;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block
+  ;
+}
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.aboutus h2{
+  color: #f1356d;
+  
+  height: 50px;
+}
+
+
+.content .photo{
+  float: right;
+  display: block;
+  
+}
+.spacing h4{
+    color: black;
+}
